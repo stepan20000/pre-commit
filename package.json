@@ -26,16 +26,10 @@
     },
     "subjectPreferredMaxLineLength": false,
     "subjectMaxLineLength": {
-      "length": 100
+      "length": 2
     },
     "bodyMaxLineLength": {
       "length": 2
-    },
-    "references": {
-      "github": {
-        "user": "angular",
-        "repo": "angular.js"
-      }
     }
   }
 }
