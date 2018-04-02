@@ -13,24 +13,6 @@
     "commit-msg": "^0.2.2"
   },
   "commitMsg": {
-    "invalidCharsInSubject": false,
-    "pattern": "/A/",
-    "types": {
-      "allowedTypes": "^(feat|fix|docs|style|refactor|perf|test|chore)(\\([^)]+\\))?: ",
-      "required": true
-    },
-    "strictTypes": {
-      "invalidTypes": "(^[^: ]+: )"
-    },
-    "capitalized": {
-      "capital": true
-    },
-    "subjectPreferredMaxLineLength": false,
-    "subjectMaxLineLength": {
-      "length": 2
-    },
-    "bodyMaxLineLength": {
-      "length": 2
-    }
+    "pattern": "/A/"
   }
 }
