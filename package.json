@@ -22,14 +22,14 @@
       "invalidTypes": "(^[^: ]+: )"
     },
     "capitalized": {
-      "capital": false
+      "capital": true
     },
     "subjectPreferredMaxLineLength": false,
     "subjectMaxLineLength": {
       "length": 100
     },
     "bodyMaxLineLength": {
-      "length": 100
+      "length": 2
     },
     "references": {
       "github": {
