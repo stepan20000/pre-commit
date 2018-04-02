@@ -12,7 +12,6 @@
   "devDependencies": {
     "commit-msg": "^0.2.2"
   },
-
   "commitMsg": {
     "invalidCharsInSubject": false,
     "types": {
