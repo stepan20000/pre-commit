@@ -8,5 +8,8 @@
     "pre-commit": "echo pre-commit"
   },
   "author": "Stepan Yefimov",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@speedy/commit-msg-hook": "^1.8.1"
+  }
 }
