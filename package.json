@@ -10,6 +10,11 @@
   "author": "Stepan Yefimov",
   "license": "ISC",
   "devDependencies": {
-    "@speedy/commit-msg-hook": "^1.8.1"
+    "ghooks": "2.0.2"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "sh pre-commit-hooks/commit-msg"
+    }
   }
 }
