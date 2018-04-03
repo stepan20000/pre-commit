@@ -18,14 +18,14 @@ let commitMessage;
 
 
 try {
-    var data = fs.readFileSync(process.argv[2], 'utf8');
-    commitMessage = data;
-    //console.log(data);
+    commitMessage = fs.readFileSync(process.argv[2], 'utf8');
+    console.log(commitMessage);
     if (commitMessage.length > 10) {
         throw new Error('Very long message. Sorry.')
     }
 } catch(e) {
     console.log('Error:', e.stack);
+    process.exit(1);
 }
 
 console.log('Commit message is:');
