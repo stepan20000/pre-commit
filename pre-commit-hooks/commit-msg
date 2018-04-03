@@ -1,9 +1,10 @@
 #!/bin/sh
 
 if which node > /dev/null
+
 then
     echo "You have node installed"
-    node /Users/stepan_yefimov/Documents/pre-commit/pre-commit-hooks/pre-commit-script.js $1
+    node /Users/stepan_yefimov/Documents/pre-commit/pre-commit-hooks/pre-commit-script.js .git/COMMIT_EDITMSG
 else
     echo 'You can not make commits since you do not have a node installed'
     exit 1
