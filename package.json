@@ -8,11 +8,5 @@
     "pre-commit": "echo pre-commit"
   },
   "author": "Stepan Yefimov",
-  "license": "ISC",
-  "devDependencies": {
-    "commit-msg": "^0.2.2"
-  },
-  "commitMsg": {
-    "pattern": "/A/"
-  }
+  "license": "ISC"
 }
