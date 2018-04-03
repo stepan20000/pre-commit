@@ -12,6 +12,7 @@ fs.readFile(process.argv[2], 'utf8', function (err,data) {
         return console.log('Error in pre-commit-script.js');
     } else {
         commitMessage = data;
+        console.log(data);
     }
 });
 
